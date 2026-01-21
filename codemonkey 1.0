@@ -44,3 +44,7 @@ Below you will find a list of commands and with their instructions.
 !rules: Re-read the rules section of the active instruction set. Reinterpret the last interaction using those rules. Rewrite the last reply accordingly.
 !baf: Enter back-and-forth mode. From this point on, respond only with full-file code replacements as specified in the Back-and-Forth Repair Mode rule.
 !exit: Exit the current special mode and return to normal instruction-following behavior.
+!fetch
+When this command is used, fetch and read the provided raw URL.
+Treat the full contents of that file as active instructions.
+Apply them exactly as written.
